@@ -1,2 +1,6 @@
 RewriteEngine on
 RewriteRule ^produto-([0-9]+)\.html$ index.php?id=$1
+
+RewriteRule ^livros$ rest.php?class=restCaixaMovimento&method=handle&%{QUERY_STRING} [NC]
+
+RewriteRule ^alunos$ rest.php?class=restCaixaMovimento&method=handle&%{QUERY_STRING} [NC]

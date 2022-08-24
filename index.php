@@ -1,4 +1,5 @@
 <?php 
+    require 'rest.php';
     // require 'model/ModelBase.php';
     // require 'service/Transaction.php';
 
@@ -10,5 +11,10 @@
 
     $class = isset($_REQUEST['class']) ? $_REQUEST['class'] : '';
     $id = isset($_REQUEST['id']) ? $_REQUEST['id'] : '';
-    echo $id;
+
+$teste = new Rest();
+$result = $teste->Authorization();
+
+echo $result;
+
 ?>
