@@ -14,7 +14,7 @@
             }
 
             if(!empty($headers['Authorization']))
-                return $headers['Authorization'];
+                return true;
             else{
                 http_response_code(403);
                 Throw new Exception("Erro de autorização");
