@@ -4,7 +4,7 @@
 
     $fodase = new ModelBase();
     $teste = new Transaction();
-    $resultado = $teste->transaction();
+    $result = $teste->transaction();
 
-    echo $resultado;
+    echo $result;
 ?>
