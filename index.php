@@ -9,5 +9,6 @@
     // echo $result;
 
     $class = isset($_REQUEST['class']) ? $_REQUEST['class'] : '';
-    echo $class;
+    $id = isset($_REQUEST['id']) ? $_REQUEST['id'] : '';
+    echo $id;
 ?>
