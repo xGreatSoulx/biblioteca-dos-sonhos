@@ -6,12 +6,8 @@
             $model_base = new ModelBase;
 
             if($model_base->beginTransaction() == true){
-                $sql = 'SELECT * FROM tab_livros';
-
-                $sth = $model_base->prepare($sql);
-
-                $resultado = $sth->execute();
-        
+                //$sql = 'SELECT * FROM tab_livros';
+    
                 return $resultado;
   
             }else{

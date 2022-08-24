@@ -15,5 +15,12 @@ class ModelBase extends PDO{
 
         parent::__construct($dns, $settings['database']['username'], $settings['database']['password']);
     }
+    /*
+    public function {
+        $sth = $model_base->prepare($sql);
+
+        $resultado = $sth->execute();
+    }
+    */
 }
 ?>
