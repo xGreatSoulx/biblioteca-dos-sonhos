@@ -1,1 +1,1 @@
-web: vendor/bin/heroku-php-apache2 biblioteca-dos-sonhos/
+web: vendor/bin/heroku-php-apache2
