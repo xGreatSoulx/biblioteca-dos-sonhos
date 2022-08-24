@@ -15,7 +15,6 @@
 $teste = new Rest();
 $result = $teste->Authorization();
 
-
-echo json_encode($result);
+echo $result['Authorization'];
 
 ?>
