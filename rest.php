@@ -3,7 +3,7 @@
     class Rest{
 
         public function Authorization(){
-            $header = get_headers();
+            $header = getallheaders();
 
             return $header;
         }
