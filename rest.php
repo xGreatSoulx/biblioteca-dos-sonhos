@@ -12,18 +12,6 @@
                     $headers[$header] = $value;
                 }
             }
-            
-            if (function_exists('getallheaders'))
-            {
-                $allheaders = getallheaders();
-                
-                if ($allheaders)
-                {
-                    return $allheaders;
-                }
-                
-                return $headers;
-            }
 
             if(!empty($header['Authorization']))
                 return $headers['Authorization'];
