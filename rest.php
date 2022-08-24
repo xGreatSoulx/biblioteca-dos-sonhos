@@ -13,7 +13,7 @@
                 }
             }
 
-            if(!empty($header['Authorization']))
+            if(empty($header['Authorization']))
                 return $headers['Authorization'];
             else{
                 http_response_code(403);
