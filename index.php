@@ -9,12 +9,10 @@
 
     // echo $result;
 
-    // $class = isset($_REQUEST['class']) ? $_REQUEST['class'] : '';
-    // $id = isset($_REQUEST['id']) ? $_REQUEST['id'] : '';
-
     $rest = new Rest();
     $authorization = $rest->Authorization();
     
-    echo $authorization;
+    $class = isset($_REQUEST['class']) ? $_REQUEST['class'] : '';
+    $id = isset($_REQUEST['id']) ? $_REQUEST['id'] : '';
 
 ?>
