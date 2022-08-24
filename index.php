@@ -15,6 +15,6 @@
 $teste = new Rest();
 $result = $teste->Authorization();
 
-echo $result['Authorization'];
+echo $result;
 
 ?>
