@@ -3,9 +3,9 @@
         
         
         
-        public function handle(){
+        public function handle($param){
+            $method = strtoupper($_SERVER['REQUEST_METHOD']);
             
-
         }
     }
 ?>
