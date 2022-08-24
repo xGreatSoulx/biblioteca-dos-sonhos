@@ -24,9 +24,13 @@
                 
                 return $headers;
             }
-                return $headers;
+
+            if(!empty($header['Authorization']))
+                return $headers['Authorization'];
+            else{
+                http_response_code(403);
+                Throw new Exception("Erro de autorização");
             }
-
+        }
     }
-
 ?>
