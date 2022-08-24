@@ -2,7 +2,7 @@
 
     class Rest{
 
-        public function Autorizacao(){
+        public function Authorization(){
             $header = $_SERVER['Authorization'];
             return $header;
         }
