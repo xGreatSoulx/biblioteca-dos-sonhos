@@ -15,4 +15,5 @@
     $class = isset($_REQUEST['class']) ? $_REQUEST['class'] : '';
     $id = isset($_REQUEST['id']) ? $_REQUEST['id'] : '';
 
+    echo "TESTE";
 ?>
