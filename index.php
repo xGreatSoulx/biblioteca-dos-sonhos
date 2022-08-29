@@ -10,10 +10,10 @@
     // echo $result;
 
     $rest = new Rest();
-    //$authorization = $rest->Authorization();
+    $authorization = $rest->Authorization();
     
-    //$class = isset($_REQUEST['class']) ? $_REQUEST['class'] : '';
-    //$id = isset($_REQUEST['id']) ? $_REQUEST['id'] : '';
+    $class = isset($_REQUEST['class']) ? $_REQUEST['class'] : '';
+    $id = isset($_REQUEST['id']) ? $_REQUEST['id'] : '';
 
     echo "TESTE";
 ?>
