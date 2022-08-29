@@ -16,7 +16,7 @@
             if(!empty($headers['Authorization']))
                 return true;
             else{
-                header('Location: https://www.google.com/');
+                
                 //http_response_code(403);
                 //Throw new Exception("Erro de autorização");
             }
