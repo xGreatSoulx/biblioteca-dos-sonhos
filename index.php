@@ -14,6 +14,6 @@
     
     $class = isset($_REQUEST['class']) ? $_REQUEST['class'] : '';
     $id = isset($_REQUEST['id']) ? $_REQUEST['id'] : '';
-    header('Location: https://www.google.com/');
+
     echo "TESTE";
 ?>
